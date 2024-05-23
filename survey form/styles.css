@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #2B2D42;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0rem;
+    color: #48BF84;
+    padding: 1rem;
+}
+
+#description{
+    color: #EDF2F4;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    border-radius: .5rem;
+    margin: 1rem;
+    width: 70%;
+    border-style: solid;
+    border-color: #EDF2F4;
+    border-width: .15rem;
+
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    font-size: 1.2rem;
+}
+
+#name, #email, #number, #dropdown{
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border-style: solid;
+    border-color: #2B2D42;
+    outline: 0;
+    border-width: .2rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    transition: all .5s;
+}
+
+#name-label, #email-label, #number-label, #gender-label, #health-label, #dropdown-label{
+    margin: .3rem 0rem;
+}
+
+.radio-input, .checkbox-input{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    margin: 1rem 0rem; 
+    font-size: 1.1rem;
+    padding: .7rem;
+    border-radius: .3rem;
+}
+
+#submit{
+    padding: .8rem 0rem;
+    border-style: solid;
+    border-color: #48BF84;
+    border-width: .1rem;
+    text-transform: capitalize;
+    background-color: #48BF84;
+    cursor: pointer;
+    border-radius: .2rem;
+    color: #2B2D42;
+    font-weight: bolder;
+    font-size: 1rem;
+    transition: all .3s;
+}
+
+#submit:hover{
+    background-color: #2B2D42;
+    color: #48BF84;
+    border: 1;
+    border-style: solid;
+    border-color: #48BF84;
+    border-width: .1rem;
+}
+
+#name:focus{
+    border-style: solid;
+    border-color: skyblue;
+    border-width: .15rem;
+}
+#email:focus{
+    border-style: solid;
+    border-color: skyblue;
+    border-width: .15rem;
+}
+#number:focus{
+    border-style: solid;
+    border-color: skyblue;
+    border-width: .15rem;
+}
+#dropdown:focus{
+    border-style: solid;
+    border-color: skyblue;
+    border-width: .15rem;
+}
