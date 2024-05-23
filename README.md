@@ -1,2 +1,2 @@
 # freecodecamp-resposive-web-design-solutions
-Solutions for the freecodecamp Responsive Web Design Cerification
+Solutions for the freecodecamp Responsive Web Design Certification
